@@ -1,0 +1,60 @@
+* {
+  margin: 0px;
+}
+.container {
+  background-color: #07080c;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.headingStyle {
+  font-size: 52px;
+  color: #ffffff;
+  font-family: Roboto;
+  font-style: italic;
+  margin: 12px;
+}
+.imgStyle {
+  height: 28%;
+  width: 65%;
+  margin: 10px;
+}
+.heading2Style {
+  color: #ffffff;
+  font-size: 32px;
+  font-family: roboto;
+  font-weight: 400;
+  margin: 10px;
+}
+.paraStyle {
+  color: #cbd5e1;
+  font-size: 18px;
+  font-family: roboto;
+  margin: 10px;
+  font-weight: 300;
+}
+.buttonsContainer {
+  margin-top: 20px;
+}
+.accelerateButton {
+  margin-right: 10px;
+  height: 45px;
+  width: 120px;
+  background-color: #0b69ff;
+  color: #ffffff;
+  border-radius: 10px;
+  border-width: 0px;
+}
+.brakeButton {
+  margin-left: 10px;
+  height: 45px;
+  width: 120px;
+  background-color: transparent;
+  color: #94a3b8;
+  border-color: #94a3b8;
+  border-radius: 10px;
+  border-width: 2px;
+  border-style: solid;
+}
